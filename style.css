@@ -12,6 +12,22 @@ html{
     color: #34401A;
     font: size 21px;
     font-family: ubuntu, Arial, Helvetica, sans-serif;
+    width: 80%;
+    max-width: 1280px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+header{
+ background-color: #34401A ;
+ color: #B4BF5E; 
+   }
+
+.design-archives{
+    display: none;
+}
+.intro{ 
+    height: 550px;
 }
 .destaque{
     color: #252617;
@@ -23,8 +39,12 @@ h1, h2, h3{
     text-align: center;
 }
 h1{ font-size: 1.8rem;
-}
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    }
 h2{font-size: 1.4rem;
+    display: inline-block;                                                                                                                                                                              
 }
 h3{font-size: 1.2rem;
 }
@@ -37,3 +57,20 @@ h3{font-size: 1.2rem;
 .abbr{
     font: small-caps
 }
+aside ul li{
+    list-style-type: none;
+    margin: 1em;
+    text-align: center;
+   }
+footer{
+    margin: 4%;
+   }
+footer a{
+    display: inline-block;
+    border: solid 2px;
+    padding: 0.5em;
+    text-align: center;
+    background-color: #34401A ;
+    color: #B4BF5E; 
+   }
+  
