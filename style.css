@@ -73,4 +73,23 @@ footer a{
     background-color: #34401A ;
     color: #B4BF5E; 
    }
-  
+  .page-wrapper{
+    position: relative;
+  }
+  .explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid; 
+    border-right-color: #34401A ;
+    padding-right: 2%;
+    
+ }
+  .design-selection{
+    position: absolute;
+    top: 480px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    left: 62%;
+      }
+     
