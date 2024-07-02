@@ -1,4 +1,5 @@
 
+/*Exercícios - CSS Zen Garden*/
 /* Color Theme Swatches in Hex 
 .wilderness-landscape-with-green-vegetation-1-hex { color: #34401A; }
 .wilderness-landscape-with-green-vegetation-2-hex { color: #64732F; }
@@ -7,6 +8,7 @@
 .wilderness-landscape-with-green-vegetation-5-hex { color: #252617; }*/
 
 
+/*Exercícios - Estilização textual*/
 html{
     background-color: #B4BF5E;
     color: #34401A;
@@ -57,6 +59,9 @@ h3{font-size: 1.2rem;
 .abbr{
     font: small-caps
 }
+
+/*Exercícios - Box Model*/
+
 aside ul li{
     list-style-type: none;
     margin: 1em;
@@ -73,6 +78,9 @@ footer a{
     background-color: #34401A ;
     color: #B4BF5E; 
    }
+
+/*Exercícios - Posicionamento*/
+
   .page-wrapper{
     position: relative;
   }
@@ -86,10 +94,66 @@ footer a{
  }
   .design-selection{
     position: absolute;
-    top: 480px;
+    top: 450px;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 2%;
     left: 62%;
       }
+
+/*Exercícios - Flexbox*/
+
+     .supporting footer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .zen-validate-html{
+        flex-grow: 1;
+      }
+      .zen-validate-css{
+        flex-grow: 1;
+      }
+      .zen-license{
+        flex-grow: 1;
+      }
+      .zen-accessibility{
+        flex-grow: 1;
+      }
+      .zen-github{
+        flex-grow: 1;
+      }
+      .benefits{
+        display: flex;
+        border-top: #34401A solid 1px;
+        border-bottom: #34401A solid 2px;
+      }
      
+      .benefits h3{
+        order: 2;
+        align-self: center;
+        flex-basis: 30%;
+      }
+      
+      .benefits p{
+        flex-basis: 70%;
+      }
+      .participation{
+        display: flex;
+        flex-wrap: wrap;
+        border-top: #34401A solid 2px;
+      }
+      .participation h3{
+        flex-basis: 50%;
+        align-self: center;
+        border-bottom: solid 2px #B4BF5E;
+        border-top: solid 10px #B4BF5E;
+      }
+
+      .participation p{
+        flex-basis: 50%;
+      }
+
+
+      
