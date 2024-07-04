@@ -154,6 +154,7 @@ footer a{
       .participation p{
         flex-basis: 50%;
       }
+      
       /*Exercícios - Pseudo classes*/
    
        a{
@@ -178,4 +179,37 @@ footer a{
       }
        .design-selection li:last-child{
           border-bottom: #34401A solid 1px ;
-      }     
+      }    
+      
+      /*Exercícios - Media query*/
+      
+      @media screen and (max-width: 768px) {
+        .design-selection{
+          position: static;
+          width:100%
+        }
+        
+        .explanation{
+          border-right: none;
+          width: 100%;
+        }
+        .intro{ 
+          height: auto;
+        }
+        .participation{
+        display direction: column;
+        }
+        p{
+          text-indent: 0;
+        }
+    }
+      
+      @media print{
+        html{
+          font-family: 'Times New Roman', Times, serif;
+        }
+        header{
+          background-color: #B4BF5E;
+          color: #34401A; 
+      } 
+    }
